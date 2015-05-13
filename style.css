@@ -76,6 +76,10 @@ h6 {
 	margin: 40px auto;
 	text-align: center;
 }
+.container-title {
+	text-align: center;
+	color: white;
+}
 .text-button span {
 	padding: 15px 30px;
 	border: 6px solid #FFF;
@@ -108,6 +112,9 @@ h6 {
 }
 .white-bg .text-button span {
 	border: 6px solid #404040;
+	color: #404040;
+}
+.white-bg .container-title {
 	color: #404040;
 }
 .white-bg .text-button span:hover {
