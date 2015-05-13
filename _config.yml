@@ -1,0 +1,8 @@
+timezone: Europe/Stockholm
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
