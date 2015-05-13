@@ -45,7 +45,8 @@
     {% for post in site.posts %}
     <div class="container-fluid {% cycle 'white-bg', 'gray-bg' %}">
       <div class="container">
-        <h5 class="text-button"><span>2015-05-13 @ 22:00 - {{ post.title }}</span></h5>
+        <h5 class="text-button"><span>{{ post.date | date_to_string }}</span></h5>
+        <h5>Incident: {{ post.title }}</h5>
         {{ post.content }}
       </div>
     </div>
