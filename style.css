@@ -98,6 +98,19 @@ h6 {
 	padding-bottom: 30px;
 }
 
+.white-bg .text-button span {
+	border: 6px solid #404040;
+	color: #404040;
+}
+.white-bg .text-button span:hover {
+	color: white;
+	background-color: #404040;
+}
+
+.write-bg {
+	color: #404040;
+}
+
 hr {
 	height: 2px;
 	border: none;
@@ -121,6 +134,8 @@ hr {
 .buzzwords {
 	padding: 20px 120px;
 	margin-bottom: 50px;
+  max-height: 310px;
+  overflow: hidden;
 }
 .buzzwords h1 {
 	margin: 35px auto;
