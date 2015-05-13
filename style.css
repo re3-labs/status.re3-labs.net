@@ -110,11 +110,9 @@ h6 {
 	color: white;
 	background-color: #404040;
 }
-
-.white-bg {
+.white-bg, .white-bg p {
 	color: #404040;
 }
-
 
 hr {
 	height: 2px;
