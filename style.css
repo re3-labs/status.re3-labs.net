@@ -134,7 +134,7 @@ hr {
 .buzzwords {
 	padding: 20px 120px;
 	margin-bottom: 50px;
-  max-height: 310px;
+  max-height: 275px;
   overflow: hidden;
 }
 .buzzwords h1 {
@@ -142,6 +142,7 @@ hr {
 	text-align: right;
 }
 .buzzwords span {
+	transition: 0.5s all;
 	display: inline-block;
 	padding-right: 18px;
 	font-size: 44px;
@@ -156,6 +157,13 @@ hr {
 .buzzwords span.brand {
 	color: #2da86f;
 	font-size: 60px;
+}
+
+.buzzwords:hover span {
+	display: none;
+}
+.buzzwords:hover span.brand, .buzzwords:hover span.yes {
+	display: inline-block;
 }
 
 .services .col-md-6 {
